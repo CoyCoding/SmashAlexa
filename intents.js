@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "nintendo",
+            "invocationName": "smash facts",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -48,6 +48,7 @@
                     "name": "Action",
                     "values": [
                         {
+                            "id": "DOWN_B",
                             "name": {
                                 "value": "down b",
                                 "synonyms": [
@@ -56,6 +57,7 @@
                             }
                         },
                         {
+                            "id": "UP_B",
                             "name": {
                                 "value": "Up b",
                                 "synonyms": [
@@ -64,6 +66,7 @@
                             }
                         },
                         {
+                            "id": "B",
                             "name": {
                                 "value": "B",
                                 "synonyms": [
@@ -75,6 +78,7 @@
                             }
                         },
                         {
+                            "id": "SIDE_B",
                             "name": {
                                 "value": "Side B",
                                 "synonyms": [
@@ -92,6 +96,7 @@
                     "name": "Character",
                     "values": [
                         {
+                            "id": "C.Falcon",
                             "name": {
                                 "value": "Captain Falcon",
                                 "synonyms": [
@@ -102,6 +107,7 @@
                             }
                         },
                         {
+                            "id": "Fox",
                             "name": {
                                 "value": "Fox",
                                 "synonyms": [
